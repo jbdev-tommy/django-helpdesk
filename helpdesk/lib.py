@@ -9,6 +9,7 @@ lib.py - Common functions (eg multipart e-mail)
 import logging
 import mimetypes
 import os
+import asana
 from smtplib import SMTPException
 
 try:
